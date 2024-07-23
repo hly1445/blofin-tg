@@ -1,25 +1,28 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
+import Crypto from './assets/crypto-school.png'
 
-import WebApp from '@twa-dev/sdk'
+// import WebApp from '@twa-dev/sdk'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>BloFin Telegram mini app</h1>
+    <div>
+      <img className='img' src={Crypto} alt="" />
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <a href="https://blofin.com/invite/test_tg_app">
+          <button>
+            Register
+          </button>
+        </a>
       </div>
-      <div className="card">
+      {/* <div className="card">
         <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>
             Show Alert
         </button>
-      </div>
-    </>
+      </div> */}
+    </div>
   )
 }
 
