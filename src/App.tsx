@@ -11,7 +11,7 @@ function App() {
     <div>
       <img className='img' src={Crypto} alt="" />
       <div className="card">
-        <a href="https://blofin.com/invite/test_tg_app">
+        <a href="https://blofin.com/invite/test_tg_app" target="_blank" rel="noreferrer">
           <button>
             Register
           </button>
